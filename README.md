@@ -3,21 +3,14 @@
 <p>This project was developed in the <a href="https://www.freecodecamp.org/learn/quality-assurance" target="_blank">freeCodeCamp's Quality Assurance course</a>.</p>
 <p>In the development of this project I acquired or perfected some knowledge, such as Chai and Mocha, Chai-HTTP, APIs, Node.js and Passport, Express.js, Pug, template engine, JS assertions, unit and functional testing.</p>
 
-<p>Deploy: <a href="https://metric-imperial-converter.adrianwilker.repl.co/" target="_blank">https://metric-imperial-converter.adrianwilker.repl.co</a></p>
+<p>Deploy: <a href="https://metric-imperial-converter-t4j1.onrender.com/" target="_blank">https://metric-imperial-converter-t4j1.onrender.com</a></p>
+<p>On replit: <a href="https://metric-imperial-converter.adrianwilker.repl.co/" target="_blank">https://metric-imperial-converter.adrianwilker.repl.co</a></p>
 
-<p>It's instructions are listed below.</p>
+<p>It's tests are listed below:</p>
 
 <hr/>
 
-<ul>
-   <li>Complete the necessary conversion logic in <code>/controllers/convertHandler.js</code></li>
-   <li>Complete the necessary routes in <code>/routes/api.js</code></li>
-   <li>Copy the <code>sample.env</code> file to <code>.env</code> and set the variables appropriately</li>
-   <li>To run the tests uncomment <code>NODE_ENV=test</code> in your <code>.env</code> file</li>
-   <li>To run the tests in the console, use the command <code>npm run test</code>. To open the Replit console, press Ctrl+Shift+P (Cmd if on a Mac) and type "open shell"</li>
-</ul>
-
-<p>Write the following tests in <code>tests/1_unit-tests.js</code>:</p>
+<p>Unit tests:</p>
 <ul>
    <li><code>convertHandler</code> should correctly read a whole number input.</li>
    <li><code>convertHandler</code> should correctly read a decimal number input.</li>
@@ -37,7 +30,7 @@
    <li><code>convertHandler</code> should correctly convert <code>kg</code> to <code>lbs</code>.</li>
 </ul>
 
-<p>Write the following tests in <code>tests/2_functional-tests.js</code>:</p>
+<p>Functional tests:</p>
 <ul>
    <li>Convert a valid input such as <code>10L</code>: <code>GET</code> request to <code>/api/convert</code>.</li>
    <li>Convert an invalid input such as <code>32g</code>: <code>GET</code> request to <code>/api/convert</code>.</li>
